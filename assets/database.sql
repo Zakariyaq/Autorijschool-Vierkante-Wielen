@@ -4,7 +4,7 @@ CREATE TABLE gebruikers (
     naam VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     wachtwoord VARCHAR(255) NOT NULL,
-    voornaam VARCHAR(255) NOT NULL,
+    naam VARCHAR(255) NOT NULL,
     tussenvoegsel VARCHAR(20) NOT NULL,
     achternaam VARCHAR(255) NOT NULL,
     rol ENUM('instructeur', 'leerling', 'eigenaar') NOT NULL,
